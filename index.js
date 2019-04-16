@@ -12,6 +12,17 @@ function currentLine(x) {
       return "The line is currently: " + line
     }
 }
+
+let array = []
+currentLine(array) // => 
+
+function doWhatISay(string) {
+  console.log("What I say is: " + string)
+}
+
+doWhatISay("Hello")
+doWhatISay("Goodbye")
+
 function takeANumber(katzDeliLine, name) {
   katzDeliLine.push(name)
   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
